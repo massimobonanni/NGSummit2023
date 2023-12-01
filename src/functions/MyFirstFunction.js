@@ -8,6 +8,6 @@ app.http('MyFirstFunction', {
 
         const name = request.query.get('name') || await request.text() || 'world';
 
-        return { body: `Hello, ${name}!` };
+        return { body: `Hello, ${name}! NG Summit 2023` };
     }
 });
